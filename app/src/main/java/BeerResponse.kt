@@ -1,0 +1,1 @@
+class BeerResponse : ArrayList<BeerResponseItem>()
