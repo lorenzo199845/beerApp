@@ -34,7 +34,7 @@ class BeerDetailActivity : AppCompatActivity() {
 
         detail_title_tv.text = beerClicked?.name
         brewer_tips.text = beerClicked?.brewers_tips
-        first_brewed.text = beerClicked?.first_brewed
+        first_brewed.text = beerClicked?.first_brewed //ciao
         food_pairing.text = beerClicked?.food_pairing.toString().replace("[","").replace("]","")
 
 
